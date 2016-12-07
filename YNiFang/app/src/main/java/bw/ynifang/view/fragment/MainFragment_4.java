@@ -71,6 +71,13 @@ public class MainFragment_4 extends Fragment implements View.OnClickListener {
                 R.drawable.my_lottery_icon, R.drawable.my_collection_icon,
                 R.drawable.personal_center_contact_service_icon};
         //listview显示文字的集合
+        String[] tv_content = {"我的订单", "邀请有礼", "刷脸测尺寸", "我的现金券", "我的抽奖单",
+                "我收藏的商品", "联系客服"};
+        list_item_textview = new ArrayList<>();
+        for (int i = 0; i < tv_content.length; i++) {
+            list_item_textview.add(tv_content[i]);
+        }
+/*        //listview显示文字的集合
         list_item_textview = new ArrayList<>();
         list_item_textview.add("我的订单");
         list_item_textview.add("邀请有礼");
@@ -78,7 +85,7 @@ public class MainFragment_4 extends Fragment implements View.OnClickListener {
         list_item_textview.add("我的现金券");
         list_item_textview.add("我的抽奖单");
         list_item_textview.add("我收藏的商品");
-        list_item_textview.add("联系客服");
+        list_item_textview.add("联系客服");*/
     }
 
     @Override
