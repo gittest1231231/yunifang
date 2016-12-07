@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/PullToRefreshlibrary/PullToRefreshlibrary.iml" filepath="$PROJECT_DIR$/PullToRefreshlibrary/PullToRefreshlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/YNiFang.iml" filepath="$PROJECT_DIR$/YNiFang.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
